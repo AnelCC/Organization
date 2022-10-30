@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Organizations</string>
+    <string name="name">Name:</string>
+    <string name="description">Description:</string>
+    <string name="rating">Rating:</string>
+    <string name="type">Repository Type:</string>
+    <string name="search">Search the organization</string>
+    <string name="errorMessage">Please check your credentials and try again.  %1$s</string>
+    <string name="errorMessageLog">Error: %1$s</string>
+
+</resources>

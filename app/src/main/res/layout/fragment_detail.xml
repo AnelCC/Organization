@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.detail.DetailFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:id="@+id/organizationImage"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_repository"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/organizationNameLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/name"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/organizationName"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintStart_toStartOf="@+id/organizationImage"
+            app:layout_constraintTop_toBottomOf="@+id/organizationImage" />
+
+        <TextView
+            android:id="@+id/organizationName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/organizationImage"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_weight="5"
+            app:layout_constraintStart_toEndOf="@+id/organizationNameLabel"
+            app:layout_constraintTop_toBottomOf="@+id/organizationImage"
+            tools:text="Repository" />
+
+
+        <TextView
+            android:id="@+id/organizationDescriptionLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/description"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/organizationDescription"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintStart_toStartOf="@+id/organizationNameLabel"
+            app:layout_constraintTop_toBottomOf="@+id/organizationNameLabel" />
+
+        <TextView
+            android:id="@+id/organizationDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/organizationName"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_weight="5"
+            app:layout_constraintStart_toEndOf="@+id/organizationDescriptionLabel"
+            app:layout_constraintTop_toTopOf="@+id/organizationDescriptionLabel"
+            tools:text="Desc ..." />
+
+        <TextView
+            android:id="@+id/organizationRateLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/rating"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/organizationRate"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintStart_toStartOf="@+id/organizationDescriptionLabel"
+            app:layout_constraintTop_toBottomOf="@+id/organizationDescription" />
+
+        <TextView
+            android:id="@+id/organizationRate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/organizationDescription"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_weight="5"
+            app:layout_constraintStart_toEndOf="@+id/organizationRateLabel"
+            app:layout_constraintTop_toTopOf="@+id/organizationRateLabel"
+            tools:text="10001" />
+
+        <TextView
+            android:id="@+id/organizationFullNameLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/organizationFullName"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintStart_toStartOf="@+id/organizationRateLabel"
+            app:layout_constraintTop_toBottomOf="@+id/organizationRateLabel" />
+
+
+        <TextView
+            android:id="@+id/organizationFullName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/organizationRate"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_weight="5"
+            app:layout_constraintStart_toEndOf="@+id/organizationFullNameLabel"
+            app:layout_constraintStart_toStartOf="@+id/organizationRate"
+            app:layout_constraintTop_toBottomOf="@+id/organizationRate"
+            tools:text="fullName" />
+
+        <TextView
+            android:id="@+id/organizationRepoTypeLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/type"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/organizationRepoType"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_weight="3"
+            app:layout_constraintStart_toStartOf="@+id/organizationFullNameLabel"
+            app:layout_constraintTop_toBottomOf="@+id/organizationFullNameLabel" />
+
+
+        <TextView
+            android:id="@+id/organizationRepoType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/organizationFullName"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_weight="7"
+            app:layout_constraintStart_toEndOf="@+id/organizationRepoTypeLabel"
+            app:layout_constraintStart_toStartOf="@+id/organizationFullName"
+            app:layout_constraintTop_toBottomOf="@+id/organizationFullName"
+            tools:text="private" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
