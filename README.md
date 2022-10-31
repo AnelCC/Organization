@@ -7,15 +7,15 @@ Project name: **OrganizationList**
 Develop in android over Clean Architecture, MVVM, Kotlin, etc.
 
 
+### Instruction
+1. To compile you just need download the zip or clone the repo. 
+2. To login in the app you will need have a GitHub account to login with the GitHub authentication. 
+3. 
+
 ### Package Structure
-```
-com.anelcc.xxxxx.     # Root Package
 
 ```
-
-
-```
-com.anelcc.SimpleLogin      # Root Package
+com.anelcc.organizations      # Root Package
 .
 │
 ├── core               
