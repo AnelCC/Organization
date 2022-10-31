@@ -13,6 +13,31 @@ com.anelcc.xxxxx.     # Root Package
 
 ```
 
+
+```
+com.anelcc.SimpleLogin      # Root Package
+.
+│
+├── core               
+│   └── API            # Call list to Repository.        
+│
+├── data              
+│   └── Network info   # Use about to provide Repository.  
+│
+├── di                 # Use dependency injection 
+│   └── NetworkModule  # we declare the modules from the app
+│
+├── domain             # We have been implementation Modules
+│   └── UserCase       # The user case are using to comunications 
+│
+├── presentation       # Presentiation contain all views
+│   ├── detail         
+│   ├── list           
+│   └── login 
+│
+└── OrganizationsApp.kt         # name application
+
+```
 ### Preview 🎉
 
 
