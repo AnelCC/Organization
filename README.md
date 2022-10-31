@@ -16,16 +16,10 @@ com.anelcc.xxxxx.     # Root Package
 ### Preview 🎉
 
 
-<img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/1loginLogin.png" width="150" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/2loginLoading.png" width="150" height="300"/>
+<img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/1loginLogin.png" width="150" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/2loginLoading.png" width="150" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/3loginAuth.png" width="150" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/4loginAuthAppr.png" width="150" height="300"/>
 
 
-<img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/3loginAuth.png" width="150" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/4loginAuthAppr.png" width="150" height="300"/>
-
-
-<img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/5loginAuthRedirected.png" width="150" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/6loginDashboard.png" width="150" height="300"/>
-
-
-<img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/7loginSearch.png" width="150" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/8loginDetail.png" width="150" height="300"/>
+<img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/5loginAuthRedirected.png" width="150" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/6loginDashboard.png" width="150" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/7loginSearch.png" width="150" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Organization/main/images/8loginDetail.png" width="150" height="300"/>
 
 
 
