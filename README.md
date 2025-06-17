@@ -4,7 +4,8 @@
 Project name: **OrganizationList**
 
 ### Android
-Develop in android over Clean Architecture, MVVM, Kotlin, etc.
+This is a mobile app using Auth Github Auth api. Develop in android over Clean Architecture, MVVM, Kotlin, etc. 
+This use XML views
 
 
 ### Instruction
